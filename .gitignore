@@ -1,3 +1,7 @@
+#Pastas intermediárias
+**/.vs/
+**/x64/
+
 # Prerequisites
 *.d
 

@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="src\Sorting">
+      <UniqueIdentifier>{54e5b188-559d-4f06-93db-5dc2c772103e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Sorting\Quicksort">
+      <UniqueIdentifier>{7769e2d7-61d6-4009-bae2-a56898eea047}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Sorting\Insertionsort">
+      <UniqueIdentifier>{8a86cd67-b525-49af-b901-39aed3984c18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Sorting\Heapsort">
+      <UniqueIdentifier>{0eec76c0-659e-47eb-adc9-251bf212dfd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Sorting\Mergesort">
+      <UniqueIdentifier>{94eef5f6-0df0-4168-9440-7ac316b09ed8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Sorting\Selectionsort">
+      <UniqueIdentifier>{76be075b-c686-44e5-9ecf-ac3e2b992ce2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Sorting\Bubblesort">
+      <UniqueIdentifier>{8ee1df2d-1a80-4d3b-be3a-9eec29e61d0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Heap">
+      <UniqueIdentifier>{8d93fb68-9026-4c5e-b8a8-889846dfb944}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Node">
+      <UniqueIdentifier>{700aabfe-b4c4-422a-aecb-53163de59bad}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\Sorting\Sorting.cpp">
+      <Filter>src\Sorting</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Sorting\Quicksort\Quicksort.cpp">
+      <Filter>src\Sorting\Quicksort</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Sorting\Insertionsort\Insertionsort.cpp">
+      <Filter>src\Sorting\Insertionsort</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Sorting\Heapsort\Heapsort.cpp">
+      <Filter>src\Sorting\Heapsort</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Sorting\Mergesort\Mergesort.cpp">
+      <Filter>src\Sorting\Mergesort</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Sorting\Selectionsort\Selectionsort.cpp">
+      <Filter>src\Sorting\Selectionsort</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Sorting\Bubblesort\Bubblesort.cpp">
+      <Filter>src\Sorting\Bubblesort</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Heap\Heap.cpp">
+      <Filter>src\Heap</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Node\Node.cpp">
+      <Filter>src\Node</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\Sorting\Sorting.h">
+      <Filter>src\Sorting</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Sorting\Quicksort\Quicksort.h">
+      <Filter>src\Sorting\Quicksort</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Sorting\Insertionsort\Insertionsort.h">
+      <Filter>src\Sorting\Insertionsort</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Sorting\Heapsort\Heapsort.h">
+      <Filter>src\Sorting\Heapsort</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Sorting\Mergesort\Mergesort.h">
+      <Filter>src\Sorting\Mergesort</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Sorting\Selectionsort\Selectionsort.h">
+      <Filter>src\Sorting\Selectionsort</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Sorting\Bubblesort\Bubblesort.h">
+      <Filter>src\Sorting\Bubblesort</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Heap\Heap.h">
+      <Filter>src\Heap</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Node\Node.h">
+      <Filter>src\Node</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Util.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Questoes.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
