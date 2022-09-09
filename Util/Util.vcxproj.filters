@@ -32,6 +32,9 @@
     <Filter Include="src\Node">
       <UniqueIdentifier>{700aabfe-b4c4-422a-aecb-53163de59bad}</UniqueIdentifier>
     </Filter>
+    <Filter Include="src\Util">
+      <UniqueIdentifier>{c56a4c33-65a8-4523-a776-84f7922c503e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\src\Sorting\Sorting.cpp">
@@ -90,11 +93,8 @@
     <ClInclude Include="..\src\Node\Node.h">
       <Filter>src\Node</Filter>
     </ClInclude>
-    <ClInclude Include="..\src\Util.h">
-      <Filter>src</Filter>
-    </ClInclude>
-    <ClInclude Include="..\src\Questoes.h">
-      <Filter>src</Filter>
+    <ClInclude Include="..\src\Util\Util.h">
+      <Filter>src\Util</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -7,71 +7,6 @@ using namespace std;
 
 namespace Entradas {
 
-	void reverseLinkedList(string nome, int& caseTests, vector<vector<int>>& listas) {
-
-		//https://www.hackerrank.com/challenges/reverse-a-linked-list/problem?isFullScreen=true&h_r=next-challenge&h_v=zen
-
-		ifstream arquivo(nome);	
-
-		if (! arquivo.is_open())
-			return;
-
-		int tamanho = 0, item = 0;
-		arquivo >> caseTests;
-
-		for (int i = 0; i < caseTests; i++) {
-			arquivo >> tamanho;
-			vector<int> lista;
-
-			for (int j = 0; j < tamanho; j++) {
-				arquivo >> item;
-				lista.push_back(item);
-			}
-			listas.push_back(lista);
-		}
-	}
-
-}
-
-namespace Respostas {
-
-
-	void twoStacks(string nome, vector<int>& respostas) {
-		
-		//https://www.hackerrank.com/challenges/game-of-two-stacks/problem?h_r=next-challenge&h_v=zen
-
-		ifstream arquivo(nome);
-
-		int resposta = 0;
-
-		if (!arquivo.is_open())
-			return;
-
-		respostas.clear();
-
-		while (! arquivo.eof()) {
-			arquivo >> resposta;
-			respostas.push_back(resposta);
-		}
-
-		arquivo.close();
-	}
-
-}
-
-namespace Util {
-
-	int calcularSoma(vector<int>& lista) {
-
-		int tamanho = (int)lista.size();
-		int retorno = 0;
-
-		for (int i = 0; i < tamanho; i++)
-			retorno = retorno + lista[i];
-
-		return retorno;
-	}
-
 	void iniciar_lista(float* lista[], int tamanho) {
 
 		if (tamanho <= 0)
@@ -117,7 +52,31 @@ namespace Util {
 		return linhas;
 	}
 
-	void ler_arquivo_2(string nome, vector<vector<int>>& dados, vector<int>& operacoes) {
+	void reverseLinkedList(string nome, int& caseTests, vector<vector<int>>& listas) {
+
+		//https://www.hackerrank.com/challenges/reverse-a-linked-list/problem?isFullScreen=true&h_r=next-challenge&h_v=zen
+
+		ifstream arquivo(nome);
+
+		if (!arquivo.is_open())
+			return;
+
+		int tamanho = 0, item = 0;
+		arquivo >> caseTests;
+
+		for (int i = 0; i < caseTests; i++) {
+			arquivo >> tamanho;
+			vector<int> lista;
+
+			for (int j = 0; j < tamanho; j++) {
+				arquivo >> item;
+				lista.push_back(item);
+			}
+			listas.push_back(lista);
+		}
+	}
+
+	void swapNodesList(string nome, vector<vector<int>>& dados, vector<int>& operacoes) {
 
 		//https://www.hackerrank.com/challenges/swap-nodes-algo/problem
 
@@ -159,7 +118,7 @@ namespace Util {
 
 		ifstream arquivo(nome);
 
-		if (! arquivo.is_open())
+		if (!arquivo.is_open())
 			return;
 
 		int h1Size, h2Size, h3Size, valor;
@@ -229,6 +188,31 @@ namespace Util {
 
 		arquivo.close();
 
+	}
+
+}
+
+namespace Respostas {
+
+	void twoStacks(string nome, vector<int>& respostas) {
+
+		//https://www.hackerrank.com/challenges/game-of-two-stacks/problem?h_r=next-challenge&h_v=zen
+
+		ifstream arquivo(nome);
+
+		int resposta = 0;
+
+		if (!arquivo.is_open())
+			return;
+
+		respostas.clear();
+
+		while (!arquivo.eof()) {
+			arquivo >> resposta;
+			respostas.push_back(resposta);
+		}
+
+		arquivo.close();
 	}
 
 }

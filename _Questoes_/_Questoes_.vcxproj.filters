@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Arquivos de Cabeçalho">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="src\Questoes">
+      <UniqueIdentifier>{6bed1607-18c7-4a00-acd3-580ac22632ac}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\_Questoes_.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\Questoes\IO.h">
+      <Filter>src\Questoes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Questoes\Questoes.h">
+      <Filter>src\Questoes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Questoes\ReverseLinkedList.h">
+      <Filter>src\Questoes</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
